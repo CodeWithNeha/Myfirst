@@ -1,0 +1,14 @@
+div{
+    background-color: #ADC2A9;
+    border: 3px solid #000;
+}
+.pink_div{
+    background-color: #E1578A;
+}
+#red_div{
+    background-color: brown;
+}
+p{
+    color:crimson;
+    font-size: 30px;
+}
