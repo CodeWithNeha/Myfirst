@@ -1,0 +1,37 @@
+/* 
+div {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+  
+  div:hover {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #39A388;
+    transform: rotate(180deg);
+  } */
+
+  .box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    animation: 10s abc infinite;
+    animation-delay: 2s;
+  }
+  
+  @keyframes abc {
+    20% {
+      margin-left: 100%;
+      background-color: red;
+    }
+    50% {
+      margin-left: 100%;
+      background-color: black;
+      transform: rotate(30deg);
+    }
+  }
